@@ -12,9 +12,9 @@
 
 int main(int argc, char* argv[])
 {
-    std::shared_ptr<BaseTree<std::string>>tree{std::make_shared<Linked::BinaryTree<std::string>>()};
+    std::unique_ptr<BaseTree<std::string>>tree{std::make_unique<Linked::BinaryTree<std::string>>()};
     tree->postOrder();
-    tree=std::make_shared<Array::BinaryTree<std::string>>();
+    tree=std::make_unique<Array::BinaryTree<std::string>>();
     tree->postOrder();
     return 0;
 }
