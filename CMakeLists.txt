@@ -5,6 +5,7 @@ project(dsa-using-cpp VERSION 1.0.0 LANGUAGES CXX)
 include(cmake/config.cmake)
 #@add_find_package Warning: Do not remove this line
 #@add_subproject Warning: Do not remove this line
+add_subdirectory(arrays-representations)
 add_subdirectory(backtracking)
 add_subdirectory(dynamic-programming)
 add_subdirectory(greedy-method)
