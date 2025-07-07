@@ -11,7 +11,7 @@ class BinaryTree : public BaseTree<T>
 {
    public:
     void preOrder() override {}
-    void postOrder() override {std::printf("[array] %s\n",__func__);}
+    void postOrder() override { std::printf("[array] %s\n", __func__); }
     void levelOrder() override {}
     void inOrder() override {}
 };
