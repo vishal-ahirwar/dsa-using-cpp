@@ -52,10 +52,9 @@ Welcome to my curated repository of Data Structures and Algorithms implemented u
 - or just install flick cli
 ### Build and Run
 ```bash
-mkdir build
-cd build
-cmake ..
-make
-./your_executable
+cmake --preset default
+cmake --build build/default
+cd build/default
+./<dsa>/<dsa>.exe
 ------------------or-----------------
 flick build <subproject you want to build and run like array, stack or tree>
