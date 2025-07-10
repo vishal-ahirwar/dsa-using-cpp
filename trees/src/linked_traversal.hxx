@@ -2,7 +2,9 @@
 #define LINKED_TREE
 #include <cstdio>
 
+#include "queue.hxx"
 #include "tree.hxx"
+
 
 namespace Linked
 {

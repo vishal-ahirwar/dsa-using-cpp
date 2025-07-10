@@ -1,5 +1,6 @@
 #ifndef BASE_TREE
 #define BASE_TREE
+
 template <typename T>
 class BaseTree
 {
