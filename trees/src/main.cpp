@@ -6,8 +6,6 @@
 #include <memory>
 #include <string>
 
-#include "array_traversal.hxx"
-#include "linked_traversal.hxx"
 #include "tree.hxx"
 
 int main(int argc, char* argv[])
