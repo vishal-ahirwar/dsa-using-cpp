@@ -15,6 +15,7 @@ if(STATIC_LINK)
   endif()
 else()
   set(BUILD_SHARED_LIBS ON)
+  set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
 endif()
 set(COMPANY "Vishal Ahirwar")
 string(TIMESTAMP CURRENT_YEAR "%Y")
@@ -32,5 +33,6 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
         -D_FORTIFY_SOURCE=2             # Buffer security
         -fno-common                     # Avoid common symbol issues
         #-Werror                         # Treat warnings as errors
+        # -fsanitize=undefined
     )
 endif()
