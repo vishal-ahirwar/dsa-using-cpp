@@ -1,9 +1,9 @@
 CompileFlags:
   CompilationDatabase: build/windows
   Add: [-Wall, -Wextra]
-  
+
 Index:
-  Background: true
+  Background: Build
 
 Diagnostics:
   UnusedIncludes: Strict
