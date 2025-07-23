@@ -1,2 +1,0 @@
-# .clang-tidy
-Checks: '*, -llvmlibc-callee-namespace' # Example: only enable these two
